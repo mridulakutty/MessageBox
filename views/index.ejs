@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    
+    <hl>Enter your message here - </hl>
+      <form method="POST" action="/submit-form">
+        <label for="senderName">Name:
+      <input type="text" name="senderName" />
+      </label><br>
+      <label for="message">Message:
+    <input type="text" name="message" />
+    </label>
+    <input type="submit">
+  </body>
+</html>
